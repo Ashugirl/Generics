@@ -1,10 +1,10 @@
 package be.intecbrussel.examples;
 
-public class NumberDuo <E extends Number>{
+public class NumberDuo<E extends Number> {
     private E first;
     private E second;
 
-    public NumberDuo(E first, E second) {
+    public NumberDuo(E first, E second){
         this.first = first;
         this.second = second;
     }
@@ -24,9 +24,9 @@ public class NumberDuo <E extends Number>{
     public void setSecond(E second) {
         this.second = second;
     }
-
     public double getSum(){
         return first.doubleValue() + second.doubleValue();
     }
+
 }
 
